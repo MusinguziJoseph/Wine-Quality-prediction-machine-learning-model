@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wine quality prediction</title>
+    
+</head>
+<body bgcolor="#d4a3ae">
+    <center>
+        <h1>WINE QUALITY PREDICTION</h1><br>
+
+        <form method="POST", action="{{url_for('home')}}">
+            <b>fixed acidity: <input type="text",name='a',placeholder="enter 1"><br></br>
+            valatile acidity:<input type="text",name='b',placeholder="enter 2"><br></br>
+            citric acid:<input type="text",name='c',placeholder="enter 3"><br></br>
+            residual sugar:<input type="text",name='d',placeholder="enter 4"><br></br>
+            chlorides:<input type="text",name='e',placeholder="enter 5"><br></br>
+            free sulfur dioxide:<input type="text",name='f',placeholder="enter 6"><br></br>
+            total sulfurdioxide:<input type="text",name='g',placeholder="enter 7"><br></br>
+            density:<input type="text",name='h',placeholder="enter 8"><br></br>
+            PH:<input type="text",name='i',placeholder="enter 9"><br></br>
+            alcohol:<input type="text",name='j',placeholder="enter 10"><br></br>
+            <input type="submit",value='predict'>
+
+
+        </form>
+    </center>
+
+    
+</body>
+</html>
